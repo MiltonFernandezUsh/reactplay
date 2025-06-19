@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReactPlay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>ReactPlay: Decisión en Juego</h1>
+  <select id="modeSelect">
+    <option value="futbol">Fútbol</option>
+    <option value="hockey">Hockey</option>
+    <option value="basquet">Básquet</option>
+  </select>
+  <div id="game">
+    <div id="stimulus">Esperando...</div>
+    <div class="zones">
+      <button onclick="answer('left')">IZQUIERDA</button>
+      <button onclick="answer('center')">CENTRO</button>
+      <button onclick="answer('right')">DERECHA</button>
+    </div>
+    <p id="feedback"></p>
+    <p id="stats"></p>
+    <button onclick="startGame()">Iniciar</button>
+    <button onclick="share()">Compartir</button>
+  </div>
+  <footer>Creado por Fernandez Milton</footer>
+  <script src="script.js"></script>
+</body>
+</html>

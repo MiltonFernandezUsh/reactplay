@@ -1,0 +1,39 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#game {
+  margin-top: 30px;
+}
+
+.zones button {
+  width: 30%;
+  height: 80px;
+  margin: 10px;
+  font-size: 1.2em;
+  border-radius: 12px;
+  border: none;
+  background-color: #1e88e5;
+  color: white;
+}
+
+#stimulus {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: yellow;
+}
+
+#feedback {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #888;
+}
